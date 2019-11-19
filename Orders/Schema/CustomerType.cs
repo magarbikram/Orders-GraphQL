@@ -12,6 +12,8 @@ namespace Orders.Schema
         {
             Field(c => c.Id);
             Field(c => c.Name);
+            Field(c => c.BillingAddress);
+            Field(c => c.ShippingAddress);
         }
     }
 }
